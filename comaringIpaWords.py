@@ -14,7 +14,7 @@ n = len(ipa_list)
 ipa_Scorelist = [[0] * n for _ in range(3)]
 highest_score = 0
 
-def Ipa_score(ipa_list, compIPA):
+def Ipa_score(ipa_list):
     #i have the lenght of the IPA list
     z = ipa_test
     n = len(ipa_list)
