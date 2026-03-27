@@ -1,5 +1,9 @@
 import html
 import unicodedata
+import openai
+
+openai.api_key = ""
+#TODO adding an .env think to be able to saftly use API Key with this public repo
 
 # source IPA (HTML-escaped) for component extraction
 #source_escape_compIPA = "zɔ.nənˌbʏ.mə"
